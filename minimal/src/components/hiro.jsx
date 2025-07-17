@@ -4,7 +4,8 @@ export default function hiro() {
   return (
     <div>
       <p>haygyu tari pela</p>
-      <p>bhagijane loda</p>
+      <p>bhagijane</p>
+      <p>hihiiii</p>
     </div>
   )
 }
