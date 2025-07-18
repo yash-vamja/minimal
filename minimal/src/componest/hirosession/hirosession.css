@@ -1,0 +1,70 @@
+.hirosession{
+    /* background-color: aquamarine; */
+    padding: 40px 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.hirosession-p_1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #4d4d4d;
+}
+
+.hirosession-p_2{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #4CAF4F;
+}
+.hirosession-content-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.hirosession-btn{
+    background-color: #4CAF4F;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+    .hirosession{
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hirosession-content-left{
+        text-align: center;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .hirosession-p_1{
+        font-size: 3rem;
+    }
+    .hirosession-p_2{
+        font-size: 3rem;
+    }
+    .hirosession-content-right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+}
