@@ -22,6 +22,7 @@ function Header() {
                         <button className='login-header-btn'>Login</button>
                         <button className='signup-header-btn'>Sign up</button>
                     </div>
+                    <div className="humburger-header"></div>
                 </div>
             </div>
         </>
