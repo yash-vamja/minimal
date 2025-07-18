@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-body{
-    margin: 0;
-    padding: 0;
-=======
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -13,5 +8,4 @@ body{
 h1, h2, h3, p {
     margin: 0;
     padding: 0;
->>>>>>> 333e23bc6765d32dfc6b3f7304a54fc837a39c94
 }
