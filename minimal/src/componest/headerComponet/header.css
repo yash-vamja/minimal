@@ -1,0 +1,56 @@
+.main-div-header{
+    height: 84px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* background-color: antiquewhite; */
+}
+.logo-header{
+    height: 40px;
+    width: 154px;
+    object-fit: contain;
+}
+.inner-navlist-header{
+    display: flex;
+    /* background-color: tomato; */
+    width: 60%;
+
+}
+.inner-div-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+}
+.ul-header{
+    display: flex;
+    /* column-gap: 57px; */
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0;
+}
+.btn-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    /* background-color: thistle; */
+}
+.login-header-btn{
+    color: rgb(76, 175, 79);
+    padding:10px 20px 10px 20px ;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.signup-header-btn{
+    color: white;
+    padding:10px 20px 10px 20px ;
+    background-color: rgb(76, 175, 79);
+    border: none;
+    border-radius: 5px;
+}
