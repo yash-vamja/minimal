@@ -25,11 +25,12 @@ function Header() {
                             <li>testimonial</li>
                             <li>FAQ</li>
                         </ul>
-                    </div>
-                    <div className="btn-header">
+                        <div className="btn-header">
                         <button className='login-header-btn'>Login</button>
                         <button className='signup-header-btn'>Sign up</button>
                     </div>
+                    </div>
+                    
                     <div className="humburger-header">
                         <img className='menu-img-header' onClick={toggleMenu} src={menu} alt=""  />
                     </div>
