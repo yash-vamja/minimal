@@ -4,6 +4,7 @@
     display: flex;
     /* justify-content: space-between; */
     gap: 20px;
+    background-color: rgb(245, 247, 250);
 
 }
 .hirosession-p_1{
