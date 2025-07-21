@@ -1,0 +1,100 @@
+.footer {
+  background-color: #212529;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.cta-section {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #f8f9fa;
+}
+
+.cta-section h2 {
+  color: #212529;
+  font-size: 48px;
+  margin-bottom: 1rem;
+}
+
+.demo-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.footer-brand {
+  flex: 1 1 250px;
+  margin-bottom: 1.5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 30px;
+  height: auto;
+}
+
+.social-icons {
+  margin-top: 1rem;
+}
+
+.social-icons i {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.footer-links {
+  display: flex;
+  gap: 2rem;
+  flex: 2 1 600px;
+  flex-wrap: wrap;
+}
+
+.footer-links h4 {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.subscribe input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  width: 180px;
+}
+
+.subscribe button {
+  padding: 0.5rem;
+  background-color: #6c757d;
+  border: none;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
