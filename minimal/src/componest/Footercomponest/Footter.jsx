@@ -1,6 +1,5 @@
 import React from "react";
 import "./footter.css"
-import 'font-awesome/css/font-awesome.min.css';
 import Icon from "../../../public/Icon.svg"
 
 

@@ -13,6 +13,7 @@ function App() {
       <Hirosession />
       <Client />
       <Helping />
+      <Footter />
     </>
   )
 }
