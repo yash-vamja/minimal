@@ -51,8 +51,7 @@
 .signup-header-btn{
     color: white;
     padding:10px 20px 10px 20px ;
-    /* background-color: rgb(76, 175, 79); */
-    background-color: rgb(193, 241, 20);
+    background-color: rgb(76, 175, 79);
     border: none;
     border-radius: 5px;
     cursor: pointer;
