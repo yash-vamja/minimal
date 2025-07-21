@@ -25,10 +25,15 @@ function Header() {
                             <li>testimonial</li>
                             <li>FAQ</li>
                         </ul>
-                        <div className="btn-header">
+                        <div className="btn-header2">
                         <button className='login-header-btn'>Login</button>
                         <button className='signup-header-btn'>Sign up</button>
                     </div>
+                       
+                    </div>
+                     <div className="btn-header">
+                        <button className='login-header-btn'>Login</button>
+                        <button className='signup-header-btn'>Sign up</button>
                     </div>
                     
                     <div className="humburger-header">

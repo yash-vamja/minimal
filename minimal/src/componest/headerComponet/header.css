@@ -55,6 +55,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-wrap: nowrap;
 }
 .humburger-header{
     display:none ;
@@ -74,36 +75,6 @@
     cursor: pointer;
 }
 
-
-/* @media(max-width:900px){
-    .humburger-header{
-        display: block;
-    }
-    .inner-navlist-header{
-        display: none;
-    }
-    .inner-navlist-header.show{
-        display: block;
-        flex-direction: column;
-        width: 10%;
-        height: 100%;
-    }
-    .ul-header{
-        flex-direction: column;
-        align-items: center;
-        width: 30%;
-        position: absolute;
-        top: 84px;
-        right: 0;
-        background-color: rgb(255, 253, 208);
-        height: 100%;
-        transition: right 1s ease-in-out;
-    }
-    .close-btn-header{
-        display: block;
-        background-color: aqua;
-    }
-} */
  @media(max-width: 900px) {
   .inner-navlist-header {
     /* display: flex; */
@@ -124,12 +95,12 @@
     /* transform: translateX(0); slide in */
     display: flex;
   }
+ 
 
   .ul-header {
     flex-direction: column;
     align-items: flex-start;
     padding: 20px;
-    margin-top: 50px;
     list-style: none;
     gap: 20px;
   }
@@ -138,8 +109,8 @@
     display: block;
     position: absolute;
     top: 20px;
-    /* right: 20px; */
-    left: 20px;
+    right: 20px;
+    /* left: 20px; */
     font-size: 24px;
     color: black;
     background-color: transparent;
@@ -149,20 +120,62 @@
   .humburger-header {
     display: block;
   }
+   .btn-header {
+    display: none;
+    padding: 20px;
+    row-gap: 10px;
+    display: flex; /* make sure it's visible */
+    align-items: flex-start;
+  }
+
+  .login-header-btn,
+  .signup-header-btn {
+    width: 100%;
+  }
+  
+}
+
+
+@media(max-width: 600px) {
+ .btn-header{
+    display: none;
+  }
+ 
+}
+/* Default: hidden */
+.btn-header2 {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.btn-header2{
+  gap: 10px;
+}
+
+/* When menu is open (mobile view) */
+@media (max-width: 900px) {
+  .inner-navlist-header.show .btn-header2 {
+    display: flex;
+    padding: 20px;
+    row-gap: 10px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    margin-left: 140px;
+  }
   .login-header-btn{
     background-color: white;
     border-radius: 5px;
   }
   .btn-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 10px;
-    margin-top: 20px;
+  position: absolute;
+  right: 230px;
   }
-/* 
-  .btn-header {
-    display: none;
-  } */
-}
 
+  .btn-header2 .login-header-btn,
+  .btn-header2 .signup-header-btn {
+    width: 100%;
+  }
+}
+  
