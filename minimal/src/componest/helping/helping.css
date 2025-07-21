@@ -1,0 +1,63 @@
+.stats-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 40px;
+  background-color: #f8fafc;
+  flex-wrap: wrap;
+  gap: 250px;
+}
+
+.stats-left {
+  max-width: 400px;
+}
+
+.stats-left h2 {
+  font-size: 30px;
+  color: #333;
+  line-height: 1.4;
+}
+
+.highlight {
+  color: #22c55e; /* Tailwind emerald-500 */
+}
+
+.stats-left p {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #666;
+}
+
+.stats-right {
+  display: flex;
+  /* grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); */
+  gap: 30px;
+  /* flex: 1; */
+  flex-wrap: wrap;
+  width: 30%;
+  
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.stat-item .icon {
+  font-size: 28px;
+  color: #22c55e;
+}
+
+.stat-item h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.stat-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
