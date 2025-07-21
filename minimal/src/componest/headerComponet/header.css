@@ -85,7 +85,8 @@
     right: 0;
     width: 70%;
     height: 100%;
-    background-color: rgba(91, 201, 95, 0.951);
+    /* background-color: rgba(91, 201, 95, 0.951); */
+    background-color: rgba(254, 52, 126, 0.951);
     /* transform: translateX(100%); */
     transition: transform 0.3s ease-in-out;
     z-index: 999;
