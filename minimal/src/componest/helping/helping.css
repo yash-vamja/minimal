@@ -227,6 +227,16 @@
     align-items: center;
     gap: 0px;
   }
+  .stats-container{
+    gap: 80px;
+  }
+  .stats-right{
+    width: 40%;
+    gap: 20px;
+  }
+  .stat-item h3{
+    font-size: 24px;
+  }
 
   .blog-post-content {
     width: 300px;
