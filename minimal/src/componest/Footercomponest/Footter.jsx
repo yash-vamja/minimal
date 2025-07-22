@@ -3,7 +3,6 @@ import "./footter.css";
 import Sociallink from "../Footercomponest/footer_img/Social Links.svg"
 import Send from "../Footercomponest/footer_img/send.svg"
 
-
 const Footter = () => {
   return (
     <footer className="footer">
@@ -31,6 +30,7 @@ const Footter = () => {
           <div className="social-icons">
             <img src={Sociallink} alt="" />
           </div>
+          
         </div>
 
         <div className="footer-links">
