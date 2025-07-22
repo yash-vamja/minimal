@@ -176,6 +176,11 @@
 
 
 @media (max-width: 768px) {
+
+    .cta-section h2{
+        font-size: 32px;
+    }
+
     .footer-content {
         flex-direction: column;
         align-items: center;
@@ -203,7 +208,6 @@
     .social-icons {
         justify-content: center;
     }
-
 
     .email-subscribe {
         width: 100%;
