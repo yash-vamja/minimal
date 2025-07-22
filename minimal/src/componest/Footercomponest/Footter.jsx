@@ -1,5 +1,7 @@
 import React from "react";
-import "./footter.css"; // Make sure this CSS file exists
+import "./footter.css"; 
+import Sociallink from "../Footercomponest/footer_img/Social Links.svg"
+import Send from "../Footercomponest/footer_img/send.svg"
 
 const Footter = () => {
   return (
@@ -17,7 +19,7 @@ const Footter = () => {
       <div className="footer-content">
         <div className="footer-brand">
           <div className="logo">
-            <img src="/Icon.svg" alt="Nexcent" /> {/* Image from public folder */}
+            <img src="/Icon.svg" alt="Nexcent" /> 
             <h3>Nexcent</h3>
           </div>
           <p>
@@ -25,12 +27,10 @@ const Footter = () => {
             <br />
             All rights reserved
           </p>
-          {/* <div className="social-icons">
-            <FontAwesomeIcon icon={faInstagram} />
-            <FontAwesomeIcon icon={faDribbble} />
-            <FontAwesomeIcon icon={faTwitter} />
-            <FontAwesomeIcon icon={faYoutube} />
-          </div> */}
+          <div className="social-icons">
+            <img src={Sociallink} alt="" />
+          </div>
+          
         </div>
 
         <div className="footer-links">
@@ -59,7 +59,7 @@ const Footter = () => {
             <div className="email-subscribe">
               <input type="email" placeholder="Your email address" />
               <button>
-                {/* <FontAwesomeIcon icon={faPaperPlane} /> */}
+                <img src={Send} alt="" />
               </button>
             </div>
           </div>
