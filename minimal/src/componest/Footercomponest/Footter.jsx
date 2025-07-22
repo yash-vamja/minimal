@@ -1,28 +1,44 @@
 import React from "react";
-import "./footter.css"
-import Icon from "../../../public/Icon.svg"
+import "./footter.css"; // Make sure this CSS file exists
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faInstagram,
+  faDribbble,
+  faTwitter,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 
 const Footter = () => {
   return (
     <footer className="footer">
+      <div className="footer-uper">
       <div className="cta-section">
-        <h2>Pellentesque suscipit <br /> fringilla libero eu.</h2>
+        <h2>
+          Pellentesque suscipit <br /> fringilla libero eu.
+        </h2>
         <button className="demo-btn">Get a Demo →</button>
       </div>
+      </div>
 
+<div className="footer-lower">
       <div className="footer-content">
         <div className="footer-brand">
           <div className="logo">
-            <img src={Icon} alt="Nexcent" />
+            <img src="/Icon.svg" alt="Nexcent" /> {/* Image from public folder */}
             <h3>Nexcent</h3>
           </div>
-          <p>Copyright © 2020 Nexcent ltd.<br />All rights reserved</p>
+          <p>
+            Copyright © 2020 Nexcent ltd.
+            <br />
+            All rights reserved
+          </p>
           <div className="social-icons">
-            <i className="fa fa-instagram"></i>
-            <i className="fa fa-dribbble"></i>
-            <i className="fa fa-twitter"></i>
-            <i className="fa fa-youtube-play"></i>
+            <FontAwesomeIcon icon={faInstagram} />
+            <FontAwesomeIcon icon={faDribbble} />
+            <FontAwesomeIcon icon={faTwitter} />
+            <FontAwesomeIcon icon={faYoutube} />
           </div>
         </div>
 
@@ -51,10 +67,13 @@ const Footter = () => {
             <h4>Stay up to date</h4>
             <div className="email-subscribe">
               <input type="email" placeholder="Your email address" />
-              <button><i className="fa fa-paper-plane"></i></button>
+              <button>
+                <FontAwesomeIcon icon={faPaperPlane} />
+              </button>
             </div>
           </div>
         </div>
+      </div>
       </div>
     </footer>
   );
