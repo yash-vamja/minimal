@@ -93,7 +93,7 @@ export default function helping() {
         <p className="testimonial-title">British Dragon Boat Racing Association</p>
 
         <div className="testimonial-logos">
-          <img src={Frame} alt="Logo 1" />
+          <img src={Frame} alt="Logo 1" className="testimonial-logo" />
           <p className='meet-customers'>Meet all customers →</p>
          
           
