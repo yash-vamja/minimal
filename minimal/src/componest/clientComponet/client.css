@@ -48,11 +48,12 @@
     align-items: center;
     justify-content: center;
     row-gap: 1rem;
+    padding-top: 30px;
 }
 .inner-div-1-community-compo{
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 30%;
     justify-content: center;
     row-gap: 8px;
     align-items: center;
@@ -83,8 +84,8 @@
     align-items: center;
     text-align: center;
     text-wrap: wrap;
-    width:21%;
-    padding: 30px 0px 30px 0px;
+    width:17%;
+    padding: 30px 10px 30px 10px;
     /* height: 260px; */
     border-radius:5% ;
     /* background-color: rgb(212, 193, 193); */
