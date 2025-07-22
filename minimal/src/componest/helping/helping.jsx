@@ -126,7 +126,7 @@ export default function helping() {
         <div className="blog-post"> 
           <img src={Blog2} alt="Blog Post 2" />
            <div className="blog-post-content">
-          <p className="blog-post-title">What are your safeguarding responsibilities and how can you manage them?</p>
+          <p className="blog-post-title">What are your safeguarding<br/> responsibilities and how can<br/> you manage them?</p>
           <p className="read-more"> Readmore <span>→</span></p>
           </div>
 
