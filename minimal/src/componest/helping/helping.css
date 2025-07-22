@@ -83,7 +83,7 @@
   width: 100%;
   color: #717171;
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .second-section-btn {
@@ -312,7 +312,7 @@
 
 @media (max-width: 480px) {
   .blog-section {
-    padding: 1rem;
+    /* padding: 1rem;  */
   }
 
   .blog-description {
