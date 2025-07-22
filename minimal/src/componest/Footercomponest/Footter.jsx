@@ -1,15 +1,6 @@
 import React from "react";
 import "./footter.css"; // Make sure this CSS file exists
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faInstagram,
-  faDribbble,
-  faTwitter,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
-import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
-
 const Footter = () => {
   return (
     <footer className="footer">
@@ -34,12 +25,12 @@ const Footter = () => {
             <br />
             All rights reserved
           </p>
-          <div className="social-icons">
+          {/* <div className="social-icons">
             <FontAwesomeIcon icon={faInstagram} />
             <FontAwesomeIcon icon={faDribbble} />
             <FontAwesomeIcon icon={faTwitter} />
             <FontAwesomeIcon icon={faYoutube} />
-          </div>
+          </div> */}
         </div>
 
         <div className="footer-links">
@@ -68,7 +59,7 @@ const Footter = () => {
             <div className="email-subscribe">
               <input type="email" placeholder="Your email address" />
               <button>
-                <FontAwesomeIcon icon={faPaperPlane} />
+                {/* <FontAwesomeIcon icon={faPaperPlane} /> */}
               </button>
             </div>
           </div>
