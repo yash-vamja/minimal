@@ -1,14 +1,8 @@
 import React from "react";
-import "./footter.css"; // Make sure this CSS file exists
+import "./footter.css"; 
+import Sociallink from "../Footercomponest/footer_img/Social Links.svg"
+import Send from "../Footercomponest/footer_img/send.svg"
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faInstagram,
-  faDribbble,
-  faTwitter,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
-import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 
 const Footter = () => {
   return (
@@ -26,7 +20,7 @@ const Footter = () => {
       <div className="footer-content">
         <div className="footer-brand">
           <div className="logo">
-            <img src="/Icon.svg" alt="Nexcent" /> {/* Image from public folder */}
+            <img src="/Icon.svg" alt="Nexcent" /> 
             <h3>Nexcent</h3>
           </div>
           <p>
@@ -35,10 +29,7 @@ const Footter = () => {
             All rights reserved
           </p>
           <div className="social-icons">
-            <FontAwesomeIcon icon={faInstagram} />
-            <FontAwesomeIcon icon={faDribbble} />
-            <FontAwesomeIcon icon={faTwitter} />
-            <FontAwesomeIcon icon={faYoutube} />
+            <img src={Sociallink} alt="" />
           </div>
         </div>
 
@@ -68,7 +59,7 @@ const Footter = () => {
             <div className="email-subscribe">
               <input type="email" placeholder="Your email address" />
               <button>
-                <FontAwesomeIcon icon={faPaperPlane} />
+                <img src={Send} alt="" />
               </button>
             </div>
           </div>

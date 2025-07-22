@@ -240,6 +240,10 @@
   .testimonial-container{
     flex-direction: column;
   }
+  .testimonial-right{
+    width: 100%;
+
+  }
 
 }
 

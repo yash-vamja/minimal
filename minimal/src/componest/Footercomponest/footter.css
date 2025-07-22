@@ -1,15 +1,10 @@
 .footer {
-    background-color: #263238; 
     color: #fff;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
 }
 
-.footer-uper{
-  width: 100%;
-}
-
-.footer-lower{
-  width: 100%;
+.footer-uper {
+    width: 100%;
 }
 
 .cta-section {
@@ -34,12 +29,18 @@
     border-radius: 5px;
 }
 
+.footer-lower {
+    width: 100%;
+    background-color: #263238;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 .footer-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; 
-    max-width: 1100px; 
+    justify-content: space-between;
+    max-width: 1100px;
     margin: auto;
     padding: 0 2rem;
     align-items: flex-start;
@@ -47,8 +48,8 @@
 
 .footer-brand {
     flex: 1 1 250px;
-    padding-top: 20px;
-    padding-right: 2rem; 
+    padding-top: 30px;
+    padding-right: 2rem;
 }
 
 .logo {
@@ -61,61 +62,61 @@
 .logo img {
     width: 24px;
     height: 24px;
-    filter: brightness(0) saturate(100%) invert(67%) sepia(50%) saturate(464%) hue-rotate(85deg) brightness(101%) contrast(101%); 
+    filter: brightness(0) saturate(100%) invert(67%) sepia(50%) saturate(464%) hue-rotate(85deg) brightness(101%) contrast(101%);
 }
 
 .logo h3 {
-    font-size: 24px; 
-    font-weight: 700; 
-    color: #FFFFFF; 
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
 }
 
 .footer-brand p {
     font-size: 14px;
-    color: #B0BEC5; 
+    color: #B0BEC5;
     line-height: 1.6;
 }
 
 .social-icons {
     display: flex;
     gap: 16px;
-    margin-top: 2rem; 
+    margin-top: 2rem;
 }
 
 .social-icons svg {
-    background-color: rgba(255, 255, 255, 0.08); 
-    padding: 10px; 
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 10px;
     border-radius: 50%;
-    width: 20px; 
-    height: 20px; 
+    width: 20px;
+    height: 20px;
     color: white;
     transition: background-color 0.3s;
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .social-icons svg:hover {
-    background-color: rgba(255, 255, 255, 0.15); 
+    background-color: rgba(255, 255, 255, 0.15);
 }
 
 .footer-links {
     display: flex;
-    gap: 4rem; 
+    gap: 4rem;
     flex-wrap: wrap;
     flex: 2 1 600px;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
-.footer-links > div {
-    min-width: 120px; 
+.footer-links>div {
+    min-width: 120px;
 }
 
 .footer-links h4 {
-    font-size: 20px; 
+    font-size: 20px;
     font-weight: 600;
-    margin-bottom: 1.5rem; 
-    color: #FFFFFF; 
+    margin-bottom: 1.5rem;
+    color: #FFFFFF;
 }
 
 .footer-links ul {
@@ -126,51 +127,49 @@
 
 .footer-links li {
     font-size: 14px;
-    color: #B0BEC5; 
-    margin-bottom: 0.8rem; 
+    color: #B0BEC5;
+    margin-bottom: 0.8rem;
     cursor: pointer;
-    white-space: nowrap; 
+    white-space: nowrap;
 }
 
 .footer-links li:hover {
     text-decoration: underline;
 }
 
-.subscribe {
-  
-}
+.subscribe {}
 
 .email-subscribe {
     display: flex;
     align-items: center;
-    background-color: #434B53; 
-    border-radius: 8px; 
+    background-color: #434B53;
+    border-radius: 8px;
     padding: 0 4px;
-    width: 250px; 
+    width: 250px;
 }
 
 .email-subscribe input {
     background: none;
     border: none;
-    color: #FFFFFF; 
-    padding: 10px 12px; 
+    color: #FFFFFF;
+    padding: 10px 12px;
     flex: 1;
     font-size: 14px;
     outline: none;
 }
 
 .email-subscribe input::placeholder {
-    color: #B0BEC5; 
+    color: #B0BEC5;
 }
 
 .email-subscribe button {
-    background-color: transparent; 
+    background-color: transparent;
     border: none;
     color: white;
     cursor: pointer;
     padding: 8px;
     font-size: 16px;
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -185,17 +184,18 @@
 
     .footer-brand {
         padding-right: 0;
+        flex: 0;
     }
 
     .footer-links {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         text-align: center;
         gap: 2rem;
         margin-top: 2rem;
     }
 
-    .footer-links > div {
+    .footer-links>div {
         min-width: unset;
         width: 100%;
     }
@@ -204,9 +204,10 @@
         justify-content: center;
     }
 
+
     .email-subscribe {
-        width: 100%; 
-        max-width: 300px; 
+        width: 100%;
+        max-width: 300px;
         margin-left: auto;
         margin-right: auto;
     }
